@@ -1,0 +1,20 @@
+{
+	"name": "phpunit/phpunit-mock-objects-php52",
+	"type": "library",
+	"version": "1.1.0-php52",
+	"require": {
+		"php": ">=5.2.6",
+		"phpunit/php-text-template": ">=1.1.1@stable",
+		"ext-reflection": "*",
+		"ext-spl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"PHPUnit/"
+		]
+	},
+	"include-path": [
+		""
+	],
+	"minimum-stability": "dev"
+}
